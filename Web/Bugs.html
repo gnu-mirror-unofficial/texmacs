@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Bugs in GNU TeXmacs (FSF GNU project)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<BR><BR>
+
+<P ALIGN=CENTER><B><FONT COLOR="#000050" SIZE=+4>
+  Known Bugs
+</FONT></B><BR></P>
+
+<HR>
+
+<H3><b>Bugs in the typesetter</b></H3>
+
+<P>
+  <UL>
+    <LI> Subscripts accented mathematical characters on wrong place. </LI>
+    <LI> When entering a formula like sqrt(frac(1+sqrt(frac(1,2)),..)
+         in math mode, the square roots do not have the right size.
+    <LI> Big delimiters are not properly taken into account
+         inside macros. </LI>
+    <LI> The inter-paragraph space between paragraph 1 and paragraph 2
+         should be determined otherwise (see programming session
+         in letter style) as the current environment inter-paragraph
+         space at the end of paragraph 1. </LI>
+    <LI> <tt>left-.</tt> and <tt>right-.</tt> do not work. </LI>
+    <LI> ``By'' is not translate in article style. </LI>
+  </UL>
+</P>
+
+<HR>
+
+<BR>
+
+<H3><b>Other bugs</b></H3>
+
+<P>
+  <UL>
+    <LI> Problems with X colormaps on 24 bits and 32 bits displays. </LI>
+    <LI> The user should be prompted for unsaved files when
+         closing TeXmacs from outside TeXmacs. </LI>
+    <LI> Quickly crash TeXmacs by typing esc s enter backspace. </LI>
+    <LI> Alternative way: enter math-mode; type minus;
+         select font size ``very large''; type minus. </LI>
+    <LI> When deleting a theorem, the numbers of the following theorems
+         are not updated.</LI>
+    <LI> When running TeXmacs inside WindowMaker, it doesn't have
+         the dockable icon. </LI>
+  </UL>
+</P>
+
+<HR>
+
+<BR>
+
+<H3><b>Problems when compiling with egcs</b></H3>
+
+<P>
+  Unfortunately, several bugs seem to persist in the egcs compiler.
+  In order to compile TeXmacs using <tt>egcs 2.95.2</tt>,
+  optimization and redhat linux,
+  I had to change correct source at three places in order to avoid
+  segmentation faults. On a SuSE linux system, I even had to change
+  one line in order to get the non optimized program working,
+  and I still don't manage to correctly compile the program using optimization.
+</P>
+
+<P>
+  A typical example of the kind of changes needed to get things working
+  is avoiding nested expressions :
+  <pre>
+    SI
+    TER::get_length (string name) {
+      string s= get (name)->label;
+      return decode_length (s);
+    }
+  </pre>
+  instead of
+  <pre>
+    SI
+    TER::get_length (string name) {
+      return decode_length (get (name)->label);
+    }
+  </pre>
+</P>
+
+<HR>
+
+<BR>
+
+<P>
+  If you find a new bug in GNU TeXmacs, or if you have a suggestion,
+  please <A href="Mail.html">contact us</A>.
+</P>
+
+<HR>
+<BR>
+
+<P>
+  Copyright (C) 1999, 2000 by Joris van der Hoeven.
+</P>
+
+<P>
+  This webpage is part of <A HREF="Welcome.html">GNU TeXmacs</A>
+  and the larger <A HREF="http://www.gnu.org">GNU project</A>.
+  Verbatim copying and distribution of it is permitted in any medium,
+  provided this notice is preserved. For more information or questions,
+  please contact <A HREF="Mail.html">Joris van der Hoeven</A>.
+</P>
+
+<P>
+  <A href="http://www.fsf.org/fsf/fsf.html">Free Software Foundation</A>,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA
+</P>
+
+</BODY>
+</HTML>

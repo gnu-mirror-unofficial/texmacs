@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Software that GNU TeXmacs depends on (FSF GNU project)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<BR><BR>
+
+<P ALIGN=CENTER><B><FONT COLOR="#000050" SIZE=+4>
+  Software that GNU TeXmacs depends on
+</FONT></B><BR></P>
+
+<BR>
+
+<P>
+  In order to run GNU TeXmacs, you should have installed a TeX distribution
+  on your system, as well as the Guile/Scheme extension language.
+  Below, we will shortly describe these packages and give some useful links.
+  For more installation on how to install TeX and Guile,
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/Dependencies.html">click here</A>.
+</P>
+
+<HR>
+
+<BR>
+
+<H2>1. The TeX typesetting system</H2>
+
+<P>
+  TeX (= tau epsilon chi, and pronounced as "tecch")
+  is a computer language for use in mathematical typesetting,
+  developed by D.E. Knuth from the late 1970s until the late 1980s.
+  The main aim was to provide output with a typesetting quality that
+  you would expect in nicely printed books.
+  In the meantime, D.E. Knuth also developed Metafont,
+  a tool to automatically generate nice looking (mathematical)
+  character fonts. In the 1980s and 1990s TeX
+  has been extended by many people, given rise for instance
+  to LaTeX, amsTeX and so on.
+  Current TeX distributions usually contain all these
+  different programs.
+</P>
+
+<P>
+  In order to use TeXmacs, it is assumed that you have
+  installed a TeX system on your system,
+  although TeXmacs really only uses the Metafont
+  program to generate its fonts. At the moment, TeXmacs
+  also needs the bibTeX program for generating bibliographies.
+</P>
+
+<P>
+  More information about the TeX system can be found at
+  <UL>
+    <LI> The <A HREF="http://www.dante.de">Dante</A> server,
+         for software related to TeX.</LI>
+    <LI> The TeX users group
+         <A HREF="http://www.tug.org" TARGET="_top">home page</A>.</LI>
+    <LI> Red hat <A HREF="http://at.rpmfind.net/opsys/linux/RPM/tetex.html">packages</A>
+         for easy installation of TeX.</LI>
+    <LI> The <A HREF="http://www-cs-faculty.stanford.edu/~knuth/">home page</A> of Prof. Knuth.</LI>
+    <LI> A brief <A HREF="http://www.tug.org/whatis.html">history</A>
+         of TeX.</LI>
+  </UL>
+</P>
+
+<HR>
+
+<BR>
+
+<H2><b>2. The Guile/Scheme extension language</b></H2>
+
+<P>
+  Guile/Scheme is a full implementation of
+  the object oriented and lisp-like programming language Scheme.
+  It has special support for linking external C or C++ programs.
+  This provides a transparent way to dynamically extend
+  the language with fast new routines.
+  Guile/Scheme is intended to become the major extension language
+  for the <A HREF="http://www.gnu.org">GNU project</A> and
+  <A HREF="http://www.gnome.org">Gnome</A>.
+</P>
+
+<P>
+  In particular, all high-level TeXmacs editing routines
+  have been interfaced to Guile. These routines thereby are
+  available to users who can write extensions to the editor,
+  without going into the C++ code of TeXmacs.
+  In the future, we also wish to implement a port to Guile-gtk.
+  This extension of Guile implements a graphical user interface
+  via gtk, which makes it possible to create menus, iconbars,
+  file selectors, etc. in a very simple way.
+</P>
+
+<P>
+  More information about Guile can be found at
+  <UL>
+    <LI> The Guile
+         <A HREF="http://www.gnu.org/software/guile">home page</A>.</LI>
+    <LI> The Guile-gtk
+         <A HREF="http://www.ping.de/sites/zagadka/guile-gtk">home page</A>.</LI>
+    <LI> Other Guile <A HREF="http://www.gnu.org/software/guile/gnu-guile-projects.html">projects</A>.</LI>
+    <LI> Red hat <A HREF="http://at.rpmfind.net/opsys/linux/RPM/guile.html">packages</A>
+         for easy installation of Guile.</LI>
+  </UL>
+</P>
+
+<HR>
+<BR>
+
+<P>
+  Copyright (C) 1999, 2000 by Joris van der Hoeven.
+</P>
+
+<P>
+  This webpage is part of <A HREF="Welcome.html">GNU TeXmacs</A>
+  and the larger <A HREF="http://www.gnu.org">GNU project</A>.
+  Verbatim copying and distribution of it is permitted in any medium,
+  provided this notice is preserved. For more information or questions,
+  please contact <A HREF="Mail.html">Joris van der Hoeven</A>.
+</P>
+
+<P>
+  <A href="http://www.fsf.org/fsf/fsf.html">Free Software Foundation</A>,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA
+</P>
+
+</BODY>
+</HTML>

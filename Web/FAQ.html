@@ -22,6 +22,25 @@
 <P>
   <B>Question 1.</B>
   <EM>
+    Can I use TeXmacs under Windows or Mac OS?
+  </EM>
+</P>
+
+<Blockquote>
+  <B>Answer.</B> Not yet, but we plan to port TeXmacs to these platforms.
+  As a general rule, TeXmacs should be relatively easy to port to
+  Unix based systems with X Window. It is therefore likely that a version
+  for the Unix-based Mac OS-X would not be so hard to achieve.
+  We are also waiting for feedback from users about the compilation of
+  TeXmacs under Cygwin on Windows. Nevertheless, work is in progress
+  to rewrite the graphical user interface of TeXmacs, so that
+  it becomes more portable. Your <A HREF="Contribute.html">help</A>
+  might actually be very useful here.
+</Blockquote>
+
+<P>
+  <B>Question 2.</B>
+  <EM>
     How can I see the LaTeX or TeX code corresponding
     to what I see on the screen?
   </EM> 
@@ -40,7 +59,7 @@
 </Blockquote>
 
 <P>
-  <B>Question 2.</B>
+  <B>Question 3.</B>
   <EM>
     I just installed TeXmacs, but when I start typing or
     when I take a look at the help, TeXmacs hangs for a minute.
@@ -59,7 +78,7 @@
 </Blockquote>
 
 <P>
-  <B>Question 3.</B>
+  <B>Question 4.</B>
   <EM>
     Why don't you use a common graphical user interface like GTK
     for your scrollbars, menus, and so on ?
@@ -88,7 +107,7 @@
 </Blockquote>
 
 <P>
-  <B>Question 4.</B>
+  <B>Question 5.</B>
   <EM>
     A publisher sent me a giant LateX preamble I'm supposed to put in in
     order to prepare a book for them.  What is the best way of putting it in
@@ -112,26 +131,22 @@
 </Blockquote>
 
 <P>
-  <B>Question 5.</B>
-  <EM>
-    What are the differences between TeXmacs and LyX?
+  <B>Question 6.</B>
+  <EM> To which formats can I convert TeXmacs documents?
   </EM>
 </P>
 
 <Blockquote>
-  <B>Answer.</B> TeXmacs is a more ambitious project.
-  Some of its major advantages are the following:
-  <OL>
-    <LI> TeXmacs is fully WYSIWYG. </LI>
-    <LI> TeXmacs is more readable on the screen. </LI>
-    <LI> You may extend the editor by defining ``fully dynamic macros''. </LI>
-    <LI> TeXmacs comes with the Guile/Scheme extension language. </LI>
-    <LI> You can use TeXmacs as an interface to computer algebra systems. </LI>
-  </OL>
-  If you discover any disadvantages which are not yet documented
-  on the <A HREF="Bugs.html">known bugs</A> and 
-  <A HREF="Suggestions.html">suggestions</A> web pages,
-  then you are invited to <A HREF="Mail.html">email them to us</A>.
+  <B>Answer.</B> TeXmacs uses its own free, structured data format and
+  Wysiwyg postscript output is provided. It is possible to save TeXmacs
+  documents as scheme expressions without loss of information.
+  Converters from and to LaTeX are provided, which will be improved
+  between versions 1.0 and 1.1. Converters from and to Html/Mathml/Xml
+  will also appear between versions 1.0 and 1.1 (a rudimentary converter
+  from Html already exists). Pdf output can be achieved by converting
+  postscript documents. We would very much appreciate your
+  <A HREF="Contribute.html">help</A> for writing and improving
+  converters for TeXmacs documents.
 </Blockquote>
 
 <HR>

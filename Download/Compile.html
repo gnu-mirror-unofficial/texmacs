@@ -37,9 +37,9 @@
 <P>
 
 <P>
-  Download the <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.5.5-src.tar.gz">latest version</A>
+  Download the <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.5.13-src.tar.gz">latest version (1.4 Mb)</A>
   of the source code, or the
-  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.5.0-src.tar.gz">latest stable version</A>,
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.5.8-src.tar.gz">latest stable version (1.4 Mb)</A>,
   cd into the directory where you wish to compile TeXmacs and type
   <pre>
     tar -zxvf TeXmacs-[source version].tar.gz
@@ -122,6 +122,16 @@
     make OTHER
     make STATIC_TEXMACS
   </pre>
+  Yet another alternative (except for sun and dec)
+  is to build TeXmacs using
+  <pre>
+    make MIXED_TEXMACS
+  </pre>
+  In this case, all extern libraries will be linked dynamically,
+  but all proper TeXmacs libraries will be linked statically.
+  This alternative may be useful when including TeXmacs
+  in a distribution with other programs.
+</P>
 
 <H3><b>6. Problems</b></H3>
 

@@ -60,7 +60,7 @@
   </TR>
   <TR VALIGN="Top">
     <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="http://packages.debian.org/unstable/editors/texmacs.html" TARGET="Main">Debian package</A></TD>
+    <TD>&nbsp;<A HREF="http://packages.debian.org/testing/editors/texmacs.html" TARGET="Main">Debian package</A></TD>
   </TR>
   <TR VALIGN="Top">
     <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
@@ -102,6 +102,10 @@
   </TR>
   <TR VALIGN="Top">
     <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
+    <TD>&nbsp;<A HREF="Contribute.html" TARGET="Main">Contribute</A></TD>
+  </TR>
+  <TR VALIGN="Top">
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Mail.html" TARGET="Main">Contact us</A></TD>
   </TR>
 </TABLE>
@@ -128,11 +132,11 @@
   </TR>
   <TR VALIGN="Top">
     <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="Links3.html" TARGET="Main">Computer algebra</A></TD>
+    <TD>&nbsp;<A HREF="Links3.html" TARGET="Main">Mathematics</A></TD>
   </TR>
   <TR VALIGN="Top">
     <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="http://www.gnu.org" TARGET="Main">GNU home page</A></TD>
+    <TD>&nbsp;<A HREF="http://www.gnu.org" TARGET="_top">GNU home page</A></TD>
   </TR>
 </TABLE>
 <HR>

@@ -15,7 +15,19 @@
 
 <HR>
 
-<H3><b>Changes from version 0.3.5.0 to 0.3.5.0</b></H3>
+<H3><b>Changes from version 0.3.5.0 to 0.3.5.1</b></H3>
+
+<UL>
+  <LI> Started implementation of floats, footnotes,
+       marginal notes, etc. (0.3.5.1) </LI>
+  <LI> Computer algebra sessions are silently (re)started
+       when feeding new input and the system is inactive (0.3.5.1). </LI>
+  <LI> Recursive kill on all subprocesses when closing
+       a computer algebra session (0.3.5.1). </LI>
+  <LI> Fixed minor keyboard-related bugs (0.3.5.1). </LI>
+</UL>
+
+<H3><b>Changes from version 0.3.4 to 0.3.5</b></H3>
 
 <UL>
   <LI> Cite and nocite may take more than one argument (0.3.5.0). </LI>
@@ -23,11 +35,6 @@
   <LI> Short documentation on automatic content generation (0.3.5.0). </LI>
   <LI> Automatic index generation (0.3.5.0). </LI>
   <LI> Glossaries have been further improved (0.3.5.0). </LI>
-</UL>
-
-<H3><b>Changes from version 0.3.4 to 0.3.5</b></H3>
-
-<UL>
   <LI> Glossaries and nicer tables of contents (0.3.4.12). </LI>
   <LI> Decorations of pieces of (hyphenated) paragraphs (0.3.4.12). </LI>
   <LI> Implementation of repeated patterns (0.3.4.12). </LI>
@@ -76,16 +83,16 @@
   <LI> Added support for Reduce thanks to Andrey Grozin (0.3.4.1). </LI>
   <LI> Improved interface for Maxima thanks to Andrey Grozin (0.3.4.1). </LI>
   <LI> Cross execution of commands between TeXmacs and CAS' (0.3.4.1). </LI>
-  <LI> Many bug fixes for the new data format (0.3.4.0). </LI>
-  <LI> Support for special characters in conversion from HTML (0.3.4.0). </LI>
-  <LI> Scheme filters for computer algebra sessions (0.3.4.0). </LI>
-  <LI> Vertical grouping of lines in papyrus mode (0.3.4.0). </LI>
-  <LI> Several minor editing facilities (0.3.4.0). </LI>
 </UL>
 
 <H3><b>Changes from version 0.3.3 to 0.3.4</b></H3>
 
 <UL>
+  <LI> Many bug fixes for the new data format (0.3.4.0). </LI>
+  <LI> Support for special characters in conversion from HTML (0.3.4.0). </LI>
+  <LI> Scheme filters for computer algebra sessions (0.3.4.0). </LI>
+  <LI> Vertical grouping of lines in papyrus mode (0.3.4.0). </LI>
+  <LI> Several minor editing facilities (0.3.4.0). </LI>
   <LI> Elimination of old data format support II
        with 7 percent speed gain on mathematical texts (0.3.3.22). </LI>
   <LI> Elimination of old data format support I (0.3.3.21). </LI>
@@ -145,15 +152,15 @@
   <LI> Support for png and jpeg image formats (0.3.3.2). </LI>
   <LI> More interactive macro expansion, part II (0.3.3.2). </LI>
   <LI> More interactive macro expansion, part I (0.3.3.1). </LI>
-  <LI> Added many new executable constructs (0.3.3.0). </LI>
-  <LI> Definition of several TeXmacs routines in scheme (0.3.3.0). </LI>
-  <LI> Removed support for old intern tree representations (0.3.3.0). </LI>
-  <LI> Changed numbering convention (0.3.3.0). </LI>
 </UL>
 
 <H3><b>Changes from version 0.3.2 to 0.3.3</b></H3>
 
 <UL>
+  <LI> Added many new executable constructs (0.3.3.0). </LI>
+  <LI> Definition of several TeXmacs routines in scheme (0.3.3.0). </LI>
+  <LI> Removed support for old intern tree representations (0.3.3.0). </LI>
+  <LI> Changed numbering convention (0.3.3.0). </LI>
   <LI> Speed optimization of approximately 10 percent (0.3.2-9). </LI>
   <LI> Polish language support by Robert Janusz (0.3.2-8). </LI>
   <LI> Correction of several bugs (0.3.2-8). </LI>
@@ -172,12 +179,12 @@
        cursor position conversion (0.3.2-2). </LI>
   <LI> New algorithm for cursor position to
        tree path conversion (0.3.2-1). </LI>
-  <LI> More abstract relative positioning of subboxes (0.3.2-0). </LI>
 </UL>
 
 <H3><b>Changes from version 0.3.1 to 0.3.2</b></H3>
 
 <UL>
+  <LI> More abstract relative positioning of subboxes (0.3.2-0). </LI>
   <LI> Changed data format for big symbols and primes (0.3.1-9). </LI>
   <LI> Slightly improved conversion to LaTeX documents (0.3.1-9). </LI>
   <LI> Improved ¤advance¤ routine for languages (0.3.1-9). </LI>
@@ -190,7 +197,7 @@
   <LI> New style data format (0.3.1-7). </LI>
   <LI> Keyboard shorthand notation more or less compatible
        with Emacs (0.3.1-6). </LI>
-  <LI> New representation of TeXmacs trees (0.3.1-0 until 0.3.1-5). </LI>
+  <LI> New representation of TeXmacs trees (0.3.1-1 until 0.3.1-5). </LI>
 </UL>
 
 <H3><b>Changes from version 0.3.0 to 0.3.1</b></H3>
@@ -220,12 +227,12 @@
   <LI> Increased dynamism of menus and icon bars (0.3.0-1). </LI>
   <LI> Easier selections using <tt>ctrl-spc</tt> (0.3.0-1). </LI>
   <LI> Texts may have a background color (0.3.0-1). </LI>
-  <LI> TeXmacs officially becomes ``GNU TeXmacs'' (0.3.0-0). </LI>
 </UL>
 
 <H3><b>Changes from version 0.2.5 to 0.3.0</b></H3>
 
 <UL>
+  <LI> TeXmacs officially becomes ``GNU TeXmacs'' (0.3.0-0). </LI>
   <LI> Some brief documentation on the implementation
        of fonts, the TeXmacs data format and
        converters to other formats (0.2.5-10). </LI>

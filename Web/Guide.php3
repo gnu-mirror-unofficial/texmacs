@@ -17,23 +17,23 @@
 
 <TABLE BORDER="0" CELLSPACING="3" CELLPADDING="0" VALIGN="top">
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Welcome.html" TARGET="Main">Welcome</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Samples.html" TARGET="Main">Screen samples</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Manual.html" TARGET="Main">Documentation</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Changes.html" TARGET="Main">Changes</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Authors.html" TARGET="Main">Copyright</A></TD>
   </TR>
 </TABLE>
@@ -51,24 +51,24 @@
 
 <TABLE BORDER="0" CELLSPACING="3" CELLPADDING="0" VALIGN="top">
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/Install.html" TARGET="Main">Binaries</A></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
+    <TD>&nbsp;<A HREF="../Download/Install.html" TARGET="Main">Binaries</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/Compile.html" TARGET="Main">Source code</A></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
+    <TD>&nbsp;<A HREF="../Download/Compile.html" TARGET="Main">Source code</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="http://packages.debian.org/unstable/editors/texmacs.html" TARGET="Main">Debian package</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/RPM.html" TARGET="Main">RPM package</A></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
+    <TD>&nbsp;<A HREF="../Download/RPM.html" TARGET="Main">RPM package</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
-    <TD>&nbsp;<A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/Fonts.html" TARGET="Main">Extra fonts</A></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
+    <TD>&nbsp;<A HREF="../Download/Fonts.html" TARGET="Main">Extra fonts</A></TD>
   </TR>
 </TABLE>
 <HR>
@@ -85,23 +85,23 @@
 
 <TABLE BORDER="0" CELLSPACING="3" CELLPADDING="0" VALIGN="top">
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="FAQ.html" TARGET="Main">FAQ</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Bugs.html" TARGET="Main">Known bugs</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Suggestions.html" TARGET="Main">Suggestions</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Support.html" TARGET="Main">User support</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Mail.html" TARGET="Main">Contact us</A></TD>
   </TR>
 </TABLE>
@@ -119,19 +119,19 @@
 
 <TABLE BORDER="0" CELLSPACING="3" CELLPADDING="0" VALIGN="top">
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Links1.html" TARGET="Main">Dependencies</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Links2.html" TARGET="Main">Extra plug-ins</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="Links3.html" TARGET="Main">Computer algebra</A></TD>
   </TR>
   <TR VALIGN="Top">
-    <TD><IMG SRC="../Images/pootje.gif" VSPACE="1"></TD>
+    <TD><IMG SRC="../Images/pootje.png" VSPACE="1"></TD>
     <TD>&nbsp;<A HREF="http://www.gnu.org" TARGET="Main">GNU home page</A></TD>
   </TR>
 </TABLE>
@@ -152,16 +152,16 @@
 function affiche($i) {
 	echo "<A HREF=\"http://www-stats.texmacs.org\" TARGET=\"Main\">";
         switch ($i) {
-                case "0": echo "<img src=\"../Images/0.gif\" BORDER=0>";break;
-                case "1": echo "<img src=\"../Images/1.gif\" BORDER=0>";break;
-                case "2": echo "<img src=\"../Images/2.gif\" BORDER=0>";break;
-                case "3": echo "<img src=\"../Images/3.gif\" BORDER=0>";break;
-                case "4": echo "<img src=\"../Images/4.gif\" BORDER=0>";break;
-                case "5": echo "<img src=\"../Images/5.gif\" BORDER=0>";break;
-                case "6": echo "<img src=\"../Images/6.gif\" BORDER=0>";break;
-                case "7": echo "<img src=\"../Images/7.gif\" BORDER=0>";break;
-                case "8": echo "<img src=\"../Images/8.gif\" BORDER=0>";break;
-                case "9": echo "<img src=\"../Images/9.gif\" BORDER=0>";break;
+                case "0": echo "<img src=\"../Images/0.png\" BORDER=0>";break;
+                case "1": echo "<img src=\"../Images/1.png\" BORDER=0>";break;
+                case "2": echo "<img src=\"../Images/2.png\" BORDER=0>";break;
+                case "3": echo "<img src=\"../Images/3.png\" BORDER=0>";break;
+                case "4": echo "<img src=\"../Images/4.png\" BORDER=0>";break;
+                case "5": echo "<img src=\"../Images/5.png\" BORDER=0>";break;
+                case "6": echo "<img src=\"../Images/6.png\" BORDER=0>";break;
+                case "7": echo "<img src=\"../Images/7.png\" BORDER=0>";break;
+                case "8": echo "<img src=\"../Images/8.png\" BORDER=0>";break;
+                case "9": echo "<img src=\"../Images/9.png\" BORDER=0>";break;
         }
 	echo "</A>";
 }

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Contribute to GNU TeXmacs (FSF GNU project)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<BR><BR>
+
+<P ALIGN=CENTER><B><FONT COLOR="#000050" SIZE=+4>
+  Contribute to GNU TeXmacs
+</FONT></B><BR></P>
+
+<BR>
+
+<HR>
+
+<BR>
+
+<H3><b>Generalities</b></H3>
+
+<P>
+  One of the best ways to contribute to GNU TeXmacs is by using it a lot,
+  talk about it to friends and collegues, and to report us about bugs
+  or other unnatural behaviour. Please mention the fact that you wrote
+  articles using TeXmacs when submitting them. Besides these general
+  (but very important) ways to contribute, your help on the more
+  specific subjects below would be appreciated. Don't hesitate to
+  <A HREF="Mail.html">contact</A> us if you want to contribute
+  to these or any other issues.
+</P>
+
+<P>
+  Notice also that there are several interesting projects
+  for scientific research and development related to TeXmacs.
+  Such work might be done in the context of a PhD, a post-doc,
+  or whatever you would like (if appropriate funding can be found).
+  If you are interested by this, please inform us about your
+  particular interests and ask us for more information.
+</P>
+
+<P>
+  In order to find documentation about the source code of TeXmacs,
+  you may consult the menu <b>Help->implementation</b> inside the program.
+  More <A HREF="Manual.html">documentation</A> is available from
+  the web pages.
+</P>
+
+<P>
+  A new and efficient (though experimental) way to contribute to
+  the TeXmacs documentation and support is via the
+  <A HREF="http://www.alqua.com/tmresources" TARGET="_top">TeXmacs Wiki</A>.
+  This is an interactive forum where users can ask questions about
+  specific topics, but also participate themselves to the documentation
+  effort and to answering questions from other users. In the future,
+  the whole TeXmacs website might work in a similar way.
+</P>
+
+<H3><b>Documentation</b></H3>
+
+<P>
+  A big effort has still to be spent on the documentation of TeXmacs.
+  Not only good documentation is very useful for new users,
+  but writing such documentation is also a nice way for you
+  to learn more about the program. If you are limited in time,
+  then you may consider writing documentation about one
+  particular feature of TeXmacs, such as ``typing mathematics'',
+  ``using environments'' or ``writing a style file''.
+  A good idea might be to illustrate your documentation
+  by small, cartoon-like screen samples (see the
+  <A HREF="../Tutorial/index.html" TARGET="_top">tutorial</A>).
+</P>
+
+<H3><b>Translations</b></H3>
+
+<P>
+  The support of a maximal number of foreign languages is another
+  major challenge in which your help would be appreciated.
+  Usually, the procedure for a new language is as follows
+  <UL>
+    <LI>
+      You copy the file <tt>english-new.scm</tt> to
+      <tt>english-yourlanguage.dic</tt> in <tt>langs/natural/dic</tt> and
+      fill out the corresponding translations. You may want to use
+      Andrey Grozin's dictionary tool at
+<pre>
+    http://www.texmacs.org/Data/dictool.py.gz
+</pre>
+      In order to use it, may sure that Python is installed on your system,
+      download the file, gunzip it, make it executable and run it.
+    </LI>
+    <LI>
+      You tell us about any special typographical rules in your language
+      and handy keystrokes for producing special characters.
+    </LI>
+    <LI>
+      We take care of the hyphenation and typographical issues,
+      but you test them.
+    </LI>
+    <LI>
+      If you have enough time, you may also consider the translation
+      of (part of) the existing documentation.
+    </LI>
+  </UL>
+  Of course, the support for languages get out of date each time that
+  new features are added to TeXmacs. For this reason, we also maintain
+  a file <tt>miss-english-yourlanguage.dic</tt> with all missing translations
+  for your language, once that it has been added. Please do not hesitate
+  to send inclomplete versions of <tt>english-yourlanguage.dic</tt> or
+  <tt>miss-english-yourlanguage.dic</tt>; someone else may be willing to
+  complete them.
+</P>
+
+<H3><b>Converters to other data formats</b></H3>
+
+<P>
+  If you are familiar with TeX, LaTeX, Html, Xml, Sgml,
+  Mathml, Pdf, Rtf, or any other frequently used data format,
+  please consider contributing to writing good converters
+  for one or more of these formats.
+</P>
+
+<P>
+  Writing a specific converter for Pdf should not be very difficult,
+  by adapting the file <tt>src/Window/PsDevice/printer.gen.cc</tt>.
+  Converters for other formats may be more complicated to write,
+  and might sometimes  require a closer collaboration with
+  the main TeXmacs authors. In the submenu
+  <b>Help->implementation->data</b> of TeXmacs,
+  you will find details about the TeXmacs data format
+  and in <b>Help->implementation->data conversion</b>
+  we give some useful suggestions for writing converters.
+</P>
+
+<H3><b>Porting TeXmacs to other platforms</b></H3>
+
+<P>
+  Having only access to PC/Linux and SUN systems,
+  We are interested in people who want to port TeXmacs
+  to other Unix systems with X Window and
+  to maintain the corresponding distributions.
+  If you want to do this, you should take a look at the files
+  <pre>
+      gencc/src/system.h
+      src/Basic/fast_alloc.gen.cc
+  </pre>
+  Specialists on <tt>autoconf</tt> and <tt>rpm</tt> packages are
+  also invited to communicate their suggestions, patches, etc.
+</P>
+
+<P>
+  Besides porting TeXmacs to other Unix-based systems,
+  it would be nice to port TeXmacs to Windows (and Mac OS).
+  A first possibility might be to port TeXmacs to Cygwin and
+  run an X server under Windows. We would very much appreciate
+  feedback from people who have tried to do this.
+  A cleaner, but more laborious approach would be to
+  port the (modular) window interface of TeXmacs to
+  a more portable graphical user interface like
+  Gtk, GNUstep or Qt. For this task, some of our
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/misc">test programs</A>,
+  might be useful. Some (unfinished)
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/misc/Source-doc.tar.gz">documentation of TeXmacs' source code</A>
+  by David Allouche is also available.
+</P>
+
+<H3><b>Interfacing TeXmacs with other programs</b></H3>
+
+<P>
+  It is quite easy to write interfaces between TeXmacs and
+  computer algebra systems or other scientific programs with
+  structured output. Please consider writing interfaces
+  between TeXmacs and yout favorite system(s).
+  TeXmacs has already been interfaced with several
+  other <A HREF="Links3.html">free systems</A>.
+  For more information about how to add new interfaces,
+  see the <b>Help->interfaces</b> menu item inside TeXmacs.
+</P>
+
+<H3><b>Other possible contributions</b></H3>
+
+<UL>
+  <LI>
+    Grammar checkers and automatic translation programs.
+    Does someone know where to find detailed free dictionaries and
+    stuff like that?
+  </LI>
+  <LI>
+    Incorporation of a free speech recognition program.
+  </LI>
+  <LI>
+    Rewrite the window interface in a way that it becomes based
+    on <tt>Gtk</tt> (or another graphical user interface)
+    instead of X Window (and provide an interface with <tt>guile-gtk</tt>).
+  </LI>
+  <LI>
+    Etc...
+  </LI>
+</UL>
+
+<HR>
+<BR>
+
+<P>
+  Copyright (C) 1999, 2000 by Joris van der Hoeven.
+</P>
+
+<P>
+  This webpage is part of <A HREF="Welcome.html">GNU TeXmacs</A>
+  and the larger <A HREF="http://www.gnu.org">GNU project</A>.
+  Verbatim copying and distribution of it is permitted in any medium,
+  provided this notice is preserved. For more information or questions,
+  please contact <A HREF="Mail.html">Joris van der Hoeven</A>.
+</P>
+
+<P>
+  <A href="http://www.fsf.org/fsf/fsf.html">Free Software Foundation</A>,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA
+</P>
+
+</BODY>
+</HTML>

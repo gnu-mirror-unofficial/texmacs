@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Install GNU TeXmacs as a Red Hat Package (FSF GNU project)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<BR><BR>
+
+<P ALIGN=CENTER><B><FONT COLOR="#000050" SIZE=+4>
+  Installation of GNU TeXmacs as a Red Hat Package
+</FONT></B><BR></P>
+
+<HR>
+
+<BR>
+
+<H3><b>1. The idea behind rpm packages</b></H3>
+
+<P>
+  If you use redhat linux or another linux distribution (like mandrake)
+  which supports the <tt>rpm</tt> command to install software,
+  it is very easy to install GNU TeXmacs.
+  You can check whether <tt>rpm</tt> exists on your system using
+  <pre>
+    which rpm
+  </pre>
+  If the program is not installed, then you may download it from
+  <A HREF="ftp://ftp.rpm.org/pub/rpm/dist/rpm-3.0.x/rpm-3.0.4.i386.tar.gz">ftp://ftp.rpm.org/pub/rpm/dist/rpm-3.0.x</A>
+  and unpack it in the <tt>/</tt> directory as root.
+  Notice that the <tt>rpm</tt> program can only be used by root.
+  If you do not have root privilege, then you should ask
+  your system administrator to install GNU TeXmacs,
+  or use the <A HREF="Install.html">classical installation method</A>.
+</P>
+
+<H3><b>2. Download, install and run</b></H3>
+
+<P>
+  After <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/TeXmacs-0.3.4.8-1.i386.rpm">downloading</A>
+  the GNU TeXmacs distribution for PC's under GNU/Linux,
+  you may install the software by typing (as root)
+  <pre>
+    rpm -i TeXmacs-0.3.4.8-1.i386.rpm
+  </pre>
+  The program can now be launched using
+  <pre>
+    texmacs &
+  </pre>
+  In a similar way, you may <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/TeXmacs-0.3.4.8-1.src.rpm">download</A>
+  the source code as an rpm package. You might also prefer to download
+  the <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/TeXmacs-0.3.3.15-1.i386.rpm">last stable version</A> of TeXmacs,
+  or the corresponding <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/TeXmacs-0.3.3.15-1.src.rpm">source code</A>.
+  We also provide
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/">rpm's for other operating systems</A>.
+</P>
+
+<H3><b>3. Extra fonts?</b></H3>
+
+<P>
+  Before you run TeXmacs, you may optionally
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/rpm/TeXmacs-fonts-1.0-1.noarch.rpm">download</A>
+  pregenerated TeX fonts and install them using
+  <pre>
+    rpm -i TeXmacs-fonts-1.0-1.noarch.rpm
+  </pre>
+  Although these fonts may in principle be generated automatically by TeXmacs,
+  this process may slow down the editor when you use it for the first time.
+</P>
+
+<H3><b>4. Be cool...</b></H3>
+
+<P>
+  Please <A href="http://www.texmacs.org/Web/Mail.html">let
+  me know</A> if you like or dislike the program. It is very useful for
+  me to have a rough idea about the number of permanent users and
+  for what applications you are interested in GNU TeXmacs.
+  Furthermore, I am glad to receive your suggestions and problems,
+  no matter how silly they may seem to you. You may also
+  <A href="../Web/Support.html">subscribe</A> to our mailing lists.
+</P>
+
+<HR>
+<BR>
+
+<P>
+  Copyright (C) 1999, 2000 by Joris van der Hoeven.
+</P>
+
+<P>
+  This webpage is part of
+  <A HREF="http://www.texmacs.org" TARGET="_top">GNU TeXmacs</A>
+  and the larger <A HREF="http://www.gnu.org">GNU project</A>.
+  Verbatim copying and distribution of it is permitted in any medium,
+  provided this notice is preserved. For more information or questions,
+  please contact
+  <A HREF="http://www.texmacs.org/Web/Mail.html">Joris van der Hoeven</A>.
+</P>
+
+<P>
+  <A href="http://www.fsf.org/fsf/fsf.html">Free Software Foundation</A>,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA
+</P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Install GNU TeXmacs (FSF GNU project)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<BR><BR>
+
+<P ALIGN=CENTER><B><FONT COLOR="#000050" SIZE=+4>
+  Installation of GNU TeXmacs
+</FONT></B><BR></P>
+
+<HR>
+
+<BR>
+
+<H3><b>1. Download the package</b></H3>
+
+<P>
+  Download the
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.4.8-static-gnu-linux.tar.gz">most recent</A>
+  or
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-0.3.3.15-static-gnu-linux.tar.gz">last stable</A>
+  static binary distribution of GNU TeXmacs for PC's under GNU/LINUX.
+  If you have another operating system, then you should
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/">download</A>
+  the most recent version of TeXmacs for your system.
+</P>
+
+<H3><b>2. Unpack the package</b></H3>
+
+<P>
+  cd into the directory where you wish to install TeXmacs and type
+  <pre>
+    gunzip -c TeXmacs-[version]-[your system].tar.gz | tar xvf -
+  </pre>
+  All files will be unpacked into the directory <tt>TeXmacs-[version]</tt>.
+  This <tt>[installation directory]</tt> will be needed when setting
+  the environment variables.
+</P>
+
+<H3><b>3. Set the environment variables</b></H3>
+
+<P>
+  Depending on your shell, either type
+  <pre>
+    export TEXMACS_PATH=[installation directory]
+    export PATH=$TEXMACS_PATH/bin:$PATH
+  </pre>
+  or
+  <pre>
+    setenv TEXMACS_PATH [installation directory]
+    setenv PATH $TEXMACS_PATH/bin:$PATH
+  </pre>
+  We recommend to put these lines in your personal startup script,
+  such as <tt>.bash_profile</tt>.
+</P>
+
+<H3><b>4. Extra fonts?</b></H3>
+
+<P>
+  Before you run TeXmacs, you may optionally
+  <A HREF="ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-600dpi-fonts.tar.gz">download</A>
+  pregenerated TeX fonts and unpack them in the installation directory using
+  <pre>
+    gunzip -c TeXmacs-600dpi-fonts.tar.gz | tar xvf -
+  </pre>
+  Although these fonts may in principle be generated automatically by TeXmacs,
+  this process may slow down the editor when you use it for the first time.
+</P>
+
+<H3><b>5. Run !</b></H3>
+
+<P>
+  <pre>
+    texmacs &
+  </pre>
+</P>
+
+<H3><b>6. Be cool...</b></H3>
+
+<P>
+  Please <A href="../Web/Mail.html">let
+  me know</A> if you like or dislike the program. It is very useful for
+  me to have a rough idea about the number of permanent users and
+  for what applications you are interested in TeXmacs.
+  Furthermore, I am glad to receive your suggestions and problems,
+  no matter how silly they may seem to you. You may also
+  <A href="../Web/Support.html">subscribe</A> to our mailing lists.
+</P>
+
+<HR>
+<BR>
+
+<P>
+  Copyright (C) 1999, 2000 by Joris van der Hoeven.
+</P>
+
+<P>
+  This webpage is part of
+  <A HREF="http://www.texmacs.org" TARGET="_top">GNU TeXmacs</A>
+  and the larger <A HREF="http://www.gnu.org">GNU project</A>.
+  Verbatim copying and distribution of it is permitted in any medium,
+  provided this notice is preserved. For more information or questions,
+  please contact
+  <A HREF="http://www.texmacs.org/Web/Mail.html">Joris van der Hoeven</A>.
+</P>
+
+<P>
+  <A href="http://www.fsf.org/fsf/fsf.html">Free Software Foundation</A>,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA
+</P>
+
+</BODY>
+</HTML>
